@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap"
+    rel="stylesheet" />
+  <link rel="preload" href="css/style.css" as="style" />
+  <!--HACE QUE EL CÓDIGO DE CSS CARGUE MÁS RÁPIDO-->
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Tienda Video Juegos</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html">
+      <img class="header__logo" src="img/logo1.png" alt="Logotipo" />
+    </a>
+  </header>
+
+  <nav class="navegacion">
+    <a class="navegacion__enlace" href="index.html">Tienda</a>
+    <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+  </nav>
+
+  <main class="contenedor">
+    <h1>Play Station</h1>
+
+    <div class="camisa">
+      <div class="camisa__contenedor">
+        <img class="camisa__imagen" src="img/grafico.jpg" alt="Image del Producto" />
+      </div>
+
+      <div class="camisa__contenido">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Perspiciatis aliquam, beatae quasi voluptates tenetur velit debitis
+          magnam corrupti sed dolorem consectetur at enim quas! Est
+          repellendus nesciunt ab modi saepe.
+        </p>
+
+        <form class="formulario">
+          <select class="formulario__campo" name="" id="">
+            <option class="option__title" disabled selected value="">
+              Seleccionar Talla
+            </option>
+            <div class="contenedor__opciones">
+              <option class="option" value="">Chica</option>
+              <option class="option" value="">Mediana</option>
+              <option class="option" value="">Grande</option>
+            </div>
+          </select>
+          <input class="formulario__campo" type="number" placeholder="Cantidad" min="1" />
+          <input class="formulario__submit" type="submit" value="Agregar al Carrito" />
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__texto">
+      Game Store - Todos los derechos reservados 2026
+    </p>
+  </footer>
+</body>
+
+</html>
